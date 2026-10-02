@@ -67,7 +67,7 @@ async (conn, mek, m, { from, pushname, prefix, isOwner, reply }) => {
 `;
 
         const sentMsg = await conn.sendMessage(from, {
-            image: { url: "https://movanest.xyz/OFTw0W.jpg" },
+            image: { url: "https://files.catbox.moe/7z49au.png" },
             caption: settingsText
         }, { quoted: mek });
         global.numberStore = global.numberStore || {};

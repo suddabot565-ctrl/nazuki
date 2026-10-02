@@ -339,7 +339,7 @@ async function Pair(number, res = null) {
                     try {
                         const jid = xnumber + '@s.whatsapp.net';
                         const activeText = `╭━━━〔 *ᴅᴛᴇᴄ ᴍɪɴɪ ᴠ3* 〕━━━┈⊷\n┃ 🚀 *ʙᴏᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ !*\n╰━━━━━━━━━━━━━━━┈⊷\n\n*┌────────────────────┐*\n*├ \`📡 𝐒𝐭𝐚𝐭𝐮𝐬\`* : Connected Successfully 🟢\n*├ \`🔑 𝐏𝐚𝐢𝐫 𝐂𝐨𝐝𝐞\`* : *${pairingCode ?? 'Already registered'}*\n*├ \`👨🏻‍💻 𝐎𝐰𝐧𝐞𝐫\`* : Yasas Dileepa\n*├ \`🧬 𝐕𝐞𝐫𝐬𝐢𝐨𝐧\`* : 3.0.0\n*└────────────────────┘*\n\n_🫟 ᴅᴛᴇᴄ ᴍɪɴɪ ᴠ3 ɪs ɴᴏᴡ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ʀᴇᴀᴅʏ ᴛᴏ ᴜsᴇ!_`;
-                        await sock.sendMessage(jid, { image: { url: "https://i.ibb.co/mCS4V8rS/bot.jpg" }, caption: activeText });
+                        await sock.sendMessage(jid, { image: { url: "https://files.catbox.moe/7z49au.png" }, caption: activeText });
                         global.isBotActiveSent = true;
                     } catch (e) {}
                 }

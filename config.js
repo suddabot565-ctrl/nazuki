@@ -5,8 +5,8 @@
 module.exports = {
    
     PREFIX: "/",
-    OWNER_NUMBER: "947XXXXXXXX",
-    BOT_NAME: "DTEC MINI V3",
+    OWNER_NUMBER: "94761846512",
+    BOT_NAME: "NAZUKI-MD",
     WORK_TYPE: "public", 
     AUTO_TYPING: false, 
     AUTO_RECORDING: true,  
